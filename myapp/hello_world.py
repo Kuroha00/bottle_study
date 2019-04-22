@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from bottle import route, run, Bottle, template
+from ..bottle import route, run, Bottle, template
 
 # オブジェクト指向的な記述
 # app = Bottle()

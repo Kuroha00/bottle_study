@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from bottle import get, post, request, run
+from ..bottle import get, post, request, run
 
 @get('/login') # or @route('/login')
 def login_form():
